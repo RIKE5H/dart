@@ -121,4 +121,11 @@ void main() {
   print(colors);
 
   // map and filter in dart
+
+  // map in dart
+  var numList = [1, 2, 3];
+  var newNumList = numList.map((n) => n * 2);
+  print("old list : $numList new List : $newNumList");
+  print(newNumList.runtimeType);
+  print(numList.runtimeType);
 }
